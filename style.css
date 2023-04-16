@@ -1,0 +1,68 @@
+:root{
+    --color-verde: #29A645;
+}
+
+/* html{
+    overflow-x: hidden;
+} */
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.texto-verde{
+    color: var(--color-verde);
+}
+
+.color-verde {
+    background-color: var(--color-verde);
+  }
+
+.logo-codo-a-codo{
+    width: 100px;
+}
+.filter-dark{
+    
+}
+.banner{
+    height: 100vh;
+    overflow: hidden;
+    color: aliceblue;
+    top: 0;
+    left: 0;
+}
+
+.bg-image {
+    background-image: url("./assets/images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.5);
+    height: 100vh;
+}
+
+#text-white{
+    color: #ffffff;
+    z-index: 50;
+}
+
+.imagen-mediana{
+    width: 300px;
+    max-width: 300px;
+}
+
+.bg-cover{
+    background-image: url(./assets/images/hawaii-en-la-actualidad.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+}
