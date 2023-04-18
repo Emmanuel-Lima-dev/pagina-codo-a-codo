@@ -83,7 +83,7 @@
 .list-group-item{
     width: 100px;
     text-align: center;
-    line-height: 35px;
+    cursor: pointer;
 }
 
 footer{
