@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
-<body class="container-fluid">
-    <header>
-        <nav class="navbar navbar-dark navbar-expand-lg bg-secondary py-0 fixed-top">
-            <div class="container text-white">
+<body class="">
+
+    <!-- seccion header -->
+
+    <header class="fixed-top bg-secondary">
+        <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg py-0">
+            <div class="container-fluid text-white p-0">
               <a class="navbar-brand text-bolder d-flex align-items-center" href="#">
                 <img src="./assets/icons/137408912-013f0d0c-37d1-4dc2-a1b5-77356c1003f3.png" class="logo-codo-a-codo" alt="logo codo a codo">
                 <h1 class="fs-5 display-inline-block fw-normal">Conf Bs As</h1>
@@ -40,27 +44,29 @@
               </div>
             </div>
           </nav>
+        </div>
+        
     </header>
-    <main class="">
+    <main >
         <!-- seccion banner inicio -->
-        <section class=" d-flex align-items-center w-100">
+        <section class=" d-flex align-items-center w-100 pb-2">
             <div class="banner bg-image w-100 position-absolute"></div>
-            <div class="container banner">
+            <div class="container banner row">
                 <div class="col-md-6 banner col-sm-12 ms-auto h-100 position-relative d-flex flex-column justify-content-center align-items-end text-end">
                     <h1 id="text-white">Conf Bs As</h1>
                     <p class="fs-5">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                     <div>
                         <button type="button" class="btn btn-outline-light rounded-1">Quiero ser orador</button>
-                        <button type="button" class="btn color-verde text-white rounded-1">Comprar tickets</button>
+                        <button type="button" class="btn btn-light border-0 color-verde text-white rounded-1">Comprar tickets</button>
                     </div>
                 </div>
             </div>
         </section>
         <!-- seccion cards -->
         <section class="">
-            <div class="row text-center py-3">
-                <h5 class="m-0 text-uppercase fs-6 fw-normal">conoce a los</h6>
-                <h2 class="m-0 text-uppercase">oradores</h2>
+            <div class="text-center pb-1">
+                <h5 class="m-0 text-uppercase fs-8 fw-normal">conviértete en un</h6>
+                <h2 class="m-0 text-uppercase fs-3">orador</h2>
             </div>
             <div class="container-fluid">
                 <div class="row d-flex gap-4 justify-content-center">
@@ -70,12 +76,12 @@
                         </div>
                         <div class="pt-4 px-4">
                             <div class="d-flex gap-2">
-                                <span class="text-dark fw-bolder bg-warning rounded-1 px-1">JavasCript</span>
-                                <span class="text-dark fw-bolder bg-info text-white rounded-1 px-1">React</span>
+                                <span class="text-dark fw-bolder bg-warning rounded-1 px-1 fs-7">JavasCript</span>
+                                <span class="text-dark fw-bolder bg-info text-white rounded-1 px-1 fs-7">React</span>
                             </div>
-                            <h3 class="text-dark fs-4">Steve Jobs</h3>
+                            <h3 class="text-dark fs-5">Steve Jobs</h3>
                             <div>
-                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, assumenda autem? Esse omnis consequuntur totam a. Similique maiores excepturi, aperiam impedit qui, autem itaque molestias nemo beatae corporis alias vitae?</p>
+                                <p class="text-muted fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, assumenda autem? Esse omnis consequuntur totam a. Similique maiores excepturi, aperiam impedit qui, autem itaque molestias nemo beatae corporis alias vitae?</p>
                             </div>
                         </div>
                     </div>
@@ -85,12 +91,12 @@
                         </div>
                         <div class="pt-4 px-4">
                             <div class="d-flex gap-2">
-                                <span class="text-dark fw-bolder bg-warning rounded-1 px-1">JavasCript</span>
-                                <span class="text-dark fw-bolder bg-info text-white rounded-1 px-1">React</span>
+                                <span class="text-dark fw-bolder bg-warning rounded-1 px-1 fs-7">JavasCript</span>
+                                <span class="text-dark fw-bolder bg-info text-white rounded-1 px-1 fs-7">React</span>
                             </div>
-                            <h3 class="text-dark fs-4">Steve Jobs</h3>
+                            <h3 class="text-dark fs-5">Bill Gates</h3>
                             <div>
-                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, assumenda autem? Esse omnis consequuntur totam a. Similique maiores excepturi, aperiam impedit qui, autem itaque molestias nemo beatae corporis alias vitae?</p>
+                                <p class="text-muted fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, assumenda autem? Esse omnis consequuntur totam a. Similique maiores excepturi, aperiam impedit qui, autem itaque molestias nemo beatae corporis alias vitae?</p>
                             </div>
                         </div>
                     </div>
@@ -100,27 +106,30 @@
                         </div>
                         <div class="pt-4 px-4">
                             <div class="d-flex gap-2">
-                                <span class="text-dark fw-bolder bg-warning rounded-1 px-1">JavasCript</span>
-                                <span class="text-dark fw-bolder bg-info text-white rounded-1 px-1">React</span>
+                                <span class="text-white fw-bolder bg-secondary rounded-1 px-1 fs-7">Negocios</span>
+                                <span class="text-dark fw-bolder bg-danger text-white rounded-1 px-1 fs-7">StarTups</span>
                             </div>
-                            <h3 class="text-dark fs-4">Steve Jobs</h3>
+                            <h3 class="text-dark fs-5">Ada Lovelace</h3>
                             <div>
-                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, assumenda autem? Esse omnis consequuntur totam a. Similique maiores excepturi, aperiam impedit qui, autem itaque molestias nemo beatae corporis alias vitae?</p>
+                                <p class="text-muted fs-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil laudantium esse accusantium placeat, possimus atque eveniet rerum quis dolore illum suscipit. Quos quasi dolorum consectetur! </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="container-fluid p-0">
-            <div class="row p-0 my-4 bg-danger">
+
+            <!-- seccion fondo paisaje -->
+
+        <section class="container-fluid p-0 overflow-hidden">
+            <div class="row p-0 my-4">
                 
                 <div class="col-12 col-md-6 cont-paisaje bg-cover p-0 position-relative">
                     <div class="bg-dark w-100 h-100 opacity-50 text-center d-block d-md-none"></div>
-                    <div class=" position-absolute top-0 text-white d-block d-md-none py-5 px-4">
+                    <div class=" position-absolute top-0 text-white d-block d-md-none p-5 ">
                         <h3>Bs As - Octubre</h3>
-                    <p class="opacity-75">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Hondolulu se refier al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km de superficie).</p>
-                    <button type="button" class="btn btn-outline-light rounded-1">Conocé más</button>
+                        <p class="opacity-75 fs-7">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Hondolulu se refier al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km de superficie).</p>
+                        <button type="button" class="btn btn-outline-light rounded-1">Conocé más</button>
                     </div> 
                 </div>
                 
@@ -128,15 +137,58 @@
                     <h3>Bs As - Octubre</h3>
                     <p class="opacity-75">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Hondolulu se refier al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km de superficie).</p>
                     <button type="button" class="btn btn-outline-light rounded-1">Conocé más</button>
+                </div>  
+            </div>
+        </section>
+
+        <!-- seccion form -->
+
+        <section class="container-fluid">
+            <div class="text-center pb-1">
+                <h5 class="m-0 text-uppercase fs-8 fw-normal">conviértete en un</h6>
+                <h2 class="m-0 text-uppercase fs-3">orador</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-7 col-lg-6 mx-auto">
+                    <form class="text-center text-muted fs-7 mb-3">
+                        Anótate como orador para dar una <span class="subrayado-punteado">charla ignite.</span> Cuéntanos de qué quieres hablar!
+                        <div class="d-flex flex-column flex-sm-row justify-content-space-around mt-2">
+                          <label for="exampleInputEmail1" class="form-label"></label>
+                          <input type="name" class="form-control  rounded-1 h-50 fs-8 me-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                          
+                          <label for="exampleInputEmail1" class="form-label"></label>
+                          <input type="name" class="form-control  rounded-1 h-50 fs-8" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Apellido">
+                          
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label "></label>
+                          <input type="text-area"  class="form-control text-area rounded-1 pb-5" id="exampleInputPassword1" placeholder="Sobre qué quieres hablar?">
+                          <span class="text-secondary text-start d-block">Recuerda incluir un título para tu charla</span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-dark text-white w-100 rounded-1 border-0 color-verde-claro">Enviar</button>
+                      </form>
                 </div>
-                
-                
             </div>
         </section>
 
     </main>
 
+    <!-- seccion footer -->
 
+    <footer class="bg-dark">
+        <div class="py-3 fs-7 text-white">
+            <ul class="d-flex m-0 p-0 px-5 align-items-center justify-content-evenly flex-column flex-md-row">
+                <li class="list-group-item">Preguntas frecuentes</li>
+                <li class="list-group-item">Contáctanos</li>
+                <li class="list-group-item">Prensa</li>
+                <li class="list-group-item">Conferencias</li>
+                <li class="list-group-item">Términos y condiciones</li>
+                <li class="list-group-item">Privacidad</li>
+                <li class="list-group-item">Estudiantes</li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>

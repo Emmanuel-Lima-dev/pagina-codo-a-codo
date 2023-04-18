@@ -1,17 +1,7 @@
 :root{
     --color-verde: #29A645;
+    --color-verde-claro: #96C93E;
 }
-
-/* html{
-    overflow-x: hidden;
-} */
-
-body{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
 
 *{
     padding: 0;
@@ -26,6 +16,10 @@ body{
 .color-verde {
     background-color: var(--color-verde);
   }
+
+.color-verde-claro{
+    background-color: var(--color-verde-claro);
+}
 
 .logo-codo-a-codo{
     width: 100px;
@@ -64,5 +58,33 @@ body{
     height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 380px;
+    height: 440px;
+}
+
+.subrayado-punteado{
+    border-bottom: 1px dotted black;
+  }
+.form-control::placeholder-shown {
+    color: #999999;
+  }
+
+.form-control::-webkit-input-placeholder {
+    color: #999999;
+  }
+
+.fs-7{
+    font-size: 0.8rem;
+}
+
+.fs-8{
+    font-size: 0.7rem;
+}
+
+.list-group-item{
+    width: 100px;
+    text-align: center;
+}
+
+footer{
+    background-image: linear-gradient(to right, #1C3643, #1D5271);
 }
