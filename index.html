@@ -16,7 +16,7 @@
 
     <!-- seccion header -->
 
-    <header class="fixed-top bg-secondary">
+    <header class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-dark navbar-expand-lg py-0">
             <div class="container-fluid text-white p-0">
@@ -30,19 +30,19 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                    <a class="nav-link active" aria-current="page" href="#inicio">La conferencia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Los oradores</a>
+                    <a class="nav-link" href="#oradores">Los oradores</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                    <a class="nav-link" href="#lugar-y-fecha">El lugar y la fecha</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Conviertete en orador</a>
+                    <a class="nav-link" href="#form">Conviertete en orador</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link texto-verde" href="#">Comprar tickets</a>
+                    <a class="nav-link texto-verde" href="#inicio">Comprar tickets</a>
                   </li>
                 </ul>
               </div>
@@ -53,7 +53,7 @@
     </header>
     <main >
         <!-- seccion banner inicio -->
-        <section class=" d-flex align-items-center w-100">
+        <section id="inicio" class=" d-flex align-items-center w-100">
             <div class="banner bg-image w-100 position-absolute"></div>
             <div class="container banner row">
                 <div class="animate__animated animate__backInRight col-md-6 banner col-sm-12 ms-auto h-100 position-relative d-flex flex-column justify-content-center align-items-end text-end">
@@ -67,7 +67,7 @@
             </div>
         </section>
         <!-- seccion cards -->
-        <section class="mb-4">
+        <section id="oradores" class="mb-4">
             <div class="text-center p-3 p-md-2">
                 <h5 class="m-0 text-uppercase fs-8 fw-normal">conoce a los</h6>
                 <h2 class="m-0 text-uppercase fs-3">oradores</h2>
@@ -125,7 +125,7 @@
 
             <!-- seccion fondo paisaje -->
 
-        <section class="container-fluid p-0 overflow-hidden">
+        <section id="lugar-y-fecha" class="container-fluid p-0 overflow-hidden">
             <div class="row p-0">
                 
                 <div class="fade-izquierdo col-12 col-md-6 cont-paisaje bg-cover p-0 position-relative">
@@ -147,7 +147,7 @@
 
         <!-- seccion form -->
 
-        <section class="container-fluid">
+        <section id="form" class="container-fluid overflow-hidden">
             <div class="text-center p-3 p-md-2">
                 <h5 class="m-0 text-uppercase fs-8 fw-normal">conviértete en un</h6>
                 <h2 class="m-0 text-uppercase fs-3">orador</h2>
@@ -183,7 +183,7 @@
 
     <!-- seccion footer -->
 
-    <footer class="bg-dark">
+    <footer id="footer" class="bg-dark overflow-hidden">
         <div class="py-3 fs-7 text-white">
             <ul class="d-flex gap-4 m-0 p-0 px-5 align-items-center justify-content-center flex-column flex-md-row">
                 <li class="list-group-item">Preguntas frecuentes</li>

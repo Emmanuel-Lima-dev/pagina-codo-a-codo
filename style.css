@@ -1,12 +1,17 @@
 :root{
     --color-verde: #29A645;
     --color-verde-claro: #96C93E;
+    --color-oscuro: #353A40;
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+header{
+    background-color: var(--color-oscuro);
 }
 
 .texto-verde{
