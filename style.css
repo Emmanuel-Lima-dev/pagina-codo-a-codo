@@ -41,6 +41,7 @@
     background-repeat: no-repeat;
     filter: brightness(0.5);
     height: 100vh;
+    background-attachment: fixed;
 }
 
 #text-white{
@@ -78,6 +79,10 @@
 
 .fs-8{
     font-size: 0.7rem;
+}
+
+.opaciti-0{
+    opacity: 0;
 }
 
 .list-group-item{
