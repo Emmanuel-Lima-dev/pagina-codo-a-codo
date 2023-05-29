@@ -14,9 +14,9 @@
 </head>
 <body class="">
 
-    <!-- seccion header -->
+<!-- seccion header -->
 
-    <header class="fixed-top">
+    <header class="header fixed-top">
         <div class="container">
             <nav class="navbar navbar-dark navbar-expand-lg py-0">
             <div class="container-fluid text-white p-0">
@@ -42,17 +42,18 @@
                     <a class="nav-link" href="#form">Conviertete en orador</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link texto-verde" href="#inicio">Comprar tickets</a>
+                    <a class="nav-link texto-verde" href="./comprar-tickets.html">Comprar tickets</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         </div>
-        
     </header>
-    <main >
-        <!-- seccion banner inicio -->
+
+<!-- seccion banner inicio -->
+
+    <main >        
         <section id="inicio" class=" d-flex align-items-center w-100">
             <div class="banner bg-image w-100 position-absolute"></div>
             <div class="container banner row">
@@ -60,13 +61,15 @@
                     <h1 id="text-white">Conf Bs As</h1>
                     <p class="fs-5">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                     <div>
-                        <button type="button" class="btn btn-outline-light rounded-1">Quiero ser orador</button>
-                        <button type="button" class="btn btn-light border-0 color-verde text-white rounded-1">Comprar tickets</button>
+                        <button type="button" class="btn btn-outline-light rounded-1 hover-text-dark"><a href="#form" class="text-decoration-none text-white">Quiero ser orador</a></button>
+                        <button type="button" class="btn btn-light border-0 color-verde text-white rounded-1 hover-text-dark"><a href="./comprar-tickets.html" class="text-decoration-none text-white">Comprar tickets</a></button>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- seccion cards -->
+
+<!-- seccion cards -->
+
         <section id="oradores" class="mb-4">
             <div class="text-center p-3 p-md-2">
                 <h5 class="m-0 text-uppercase fs-8 fw-normal">conoce a los</h6>
@@ -76,7 +79,7 @@
                 <div class="row d-flex gap-4 justify-content-center">
                     <div class="card rounded-1 col-lg-4 col-md-6 col-sm-12 border p-0 imagen-mediana h-50">
                         <div class="cont-img">
-                            <img class="img-fluid" src="./assets/images/Steve_Jobs.jpg" alt="">
+                            <img class="img-fluid" src="./assets/images/Steve_Jobs.jpg" alt="steve jobs">
                         </div>
                         <div class="pt-4 px-4">
                             <div class="d-flex gap-2">
@@ -91,7 +94,7 @@
                     </div>
                     <div class="card rounded-1 col-lg-4 col-md-6 col-sm-12 border p-0 imagen-mediana h-50">
                         <div class="cont-img">
-                            <img class="img-fluid" src="./assets/images/bill.jpeg" alt="">
+                            <img class="img-fluid" src="./assets/images/bill.jpeg" alt="bill gates">
                         </div>
                         <div class="pt-4 px-4">
                             <div class="d-flex gap-2">
@@ -106,7 +109,7 @@
                     </div>
                     <div class="card rounded-1 col-lg-4 col-md-6 col-sm-12 border p-0 imagen-mediana h-50 box-sizing">
                         <div class="cont-img ">
-                            <img class="img-fluid imagen-mediana" src="./assets/images/ada.jpeg" alt="">
+                            <img class="img-fluid imagen-mediana" src="./assets/images/ada.jpeg" alt="ada lovelace">
                         </div>
                         <div class="pt-4 px-4">
                             <div class="d-flex gap-2">
@@ -123,7 +126,7 @@
             </div>
         </section>
 
-            <!-- seccion fondo paisaje -->
+<!-- seccion fondo paisaje -->
 
         <section id="lugar-y-fecha" class="container-fluid p-0 overflow-hidden">
             <div class="row p-0">
@@ -145,7 +148,7 @@
             </div>
         </section>
 
-        <!-- seccion form -->
+<!-- seccion form -->
 
         <section id="form" class="container-fluid overflow-hidden">
             <div class="text-center p-3 p-md-2">
@@ -154,22 +157,22 @@
             </div>
             <div class="row">
                 <div class="fade-derecho col-12 col-md-7 col-lg-6 mx-auto">
-                    <form class="text-center text-secondary fs-7 mb-3">
+                    <form action="" method="post" class="text-center text-secondary fs-7 mb-3">
                         <span>
                         Anótate como orador para dar una <span class="subrayado-punteado">charla ignite.</span> Cuéntanos de qué quieres hablar!
                         </span>
                         
                         <div class="d-flex flex-column flex-sm-row justify-content-space-around mt-2">
-                          <label for="exampleInputEmail1" class="form-label"></label>
-                          <input type="name" class="form-control  rounded-1 h-50 fs-8 me-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                          <label for="nombre" class="form-label"></label>
+                          <input type="text" name="nombre" class="form-control rounded-1 h-50  me-2" id="nombre" aria-describedby="nombre" placeholder="Nombre" required>
                           
-                          <label for="exampleInputEmail1" class="form-label"></label>
-                          <input type="name" class="form-control  rounded-1 h-50 fs-8" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Apellido">
+                          <label for="apellido" class="form-label"></label>
+                          <input type="text" name="apellido" class="form-control  rounded-1 h-50 " id="apellido" aria-describedby="apellido" placeholder="Apellido" required>
                           
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label "></label>
-                          <input type="text-area"  class="form-control text-area rounded-1 pb-5" id="exampleInputPassword1" placeholder="Sobre qué quieres hablar?">
+                          <label for="comentario" class="form-label "></label>
+                          <input type="text-area" name="comentarei" class="form-control text-area rounded-1 pb-5" id="comentario" placeholder="Sobre qué quieres hablar?" required>
                           <span class="text-secondary text-start d-block">Recuerda incluir un título para tu charla</span>
                         </div>
                         
@@ -181,7 +184,7 @@
 
     </main>
 
-    <!-- seccion footer -->
+<!-- seccion footer -->
 
     <footer id="footer" class="bg-dark overflow-hidden">
         <div class="py-3 fs-7 text-white">

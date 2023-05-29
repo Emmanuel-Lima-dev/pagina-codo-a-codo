@@ -1,0 +1,18 @@
+.card{
+    width: 15rem;
+}
+
+.card-trai{
+    border-color: #17A2B8;
+}
+
+.total{
+    background-color: #CCE5FF;
+    color: #0040A5;
+}
+
+.bi-chevron-down{
+    position:absolute;
+    right: 1rem;
+    bottom: .4rem;
+}

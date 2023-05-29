@@ -1,14 +1,19 @@
-let cards = document.querySelectorAll(".card");
-let lengthCards = cards.length;
+let cards = document.querySelectorAll(".card"),
+lengthCards = cards.length;
 
-let fadeIzquierdo = document.querySelectorAll(".fade-izquierdo");
-let lengthFadeIzquierdo = fadeIzquierdo.length;
+let fadeIzquierdo = document.querySelectorAll(".fade-izquierdo"),lengthFadeIzquierdo = fadeIzquierdo.length;
 
-let fadeDerecho = document.querySelectorAll(".fade-derecho");
-let lengthFadeDerecho = fadeDerecho.length;
+let fadeDerecho = document.querySelectorAll(".fade-derecho"),lengthFadeDerecho = fadeDerecho.length;
+
+let navItem = document.querySelectorAll(".vav-item"),
+lengthNavItem = navItem.length;
 
 window.document.addEventListener( "scroll", () => {
     let altura = window.innerHeight;
+
+    
+
+
     for ( let i = 0; i < lengthCards ; i++ ){
         cards[i].classList.add("opaciti-0");
         let distancia = cards[i].getBoundingClientRect().top;
@@ -44,5 +49,8 @@ window.document.addEventListener( "scroll", () => {
            fadeDerecho[i].classList.add("animate__fadeInRight");
         }
     }
+
+
+
 
 } );

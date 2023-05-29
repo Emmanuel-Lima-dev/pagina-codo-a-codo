@@ -29,15 +29,17 @@ header{
 .logo-codo-a-codo{
     width: 100px;
 }
-.filter-dark{
-    
-}
+
 .banner{
     height: 100vh;
     overflow: hidden;
     color: aliceblue;
     top: 0;
     left: 0;
+}
+
+.hover-text-dark:hover a{
+    color: #000 !important;
 }
 
 .bg-image {
@@ -94,6 +96,10 @@ header{
     width: 100px;
     text-align: center;
     cursor: pointer;
+}
+
+.list-group-item:hover{
+    opacity: .7;
 }
 
 footer{
