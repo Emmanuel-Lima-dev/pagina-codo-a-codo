@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+body{
+    min-width: 100vw;
+    overflow: hidden;
+}
+
 header{
     background-color: var(--color-oscuro);
 }
@@ -104,4 +109,5 @@ header{
 
 footer{
     background-image: linear-gradient(to right, #1C3643, #1D5271);
+    min-width: 100vw;
 }

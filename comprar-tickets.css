@@ -2,6 +2,11 @@
     width: 15rem;
 }
 
+.card:hover{
+    transform: scale(102%);
+    transition: .2s ease-in-out;
+}
+
 .card-trai{
     border-color: #17A2B8;
 }
@@ -16,3 +21,4 @@
     right: 1rem;
     bottom: .4rem;
 }
+
