@@ -104,7 +104,8 @@ header{
 }
 
 .list-group-item:hover{
-    opacity: .7;
+    transition: .2s ease-in-out;
+    color: #c7c7c7;
 }
 
 footer{
