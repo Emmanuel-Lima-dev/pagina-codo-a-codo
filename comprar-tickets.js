@@ -24,7 +24,7 @@ resumen.addEventListener("click", (e) => {
         valorCategoria = (cantidad.value * 200 ) * 15 / 100;
     }
 
-    total.value += ` ${valorCategoria}`;
+    total.value += ` ${(cantidad.value * 200) - valorCategoria}`;
 });
 
 borrar.addEventListener("click" , (e) => {
